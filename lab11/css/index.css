@@ -1,0 +1,78 @@
+#content {
+  padding: 20px;
+  margin: 50px;
+  background-color: ghostwhite;
+  border: ridge 5px #333333;
+  padding-bottom: 110px;
+}
+
+#links {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  margin: 20px;
+  position: sticky;
+  padding: 8px;
+}
+
+a {
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+body {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  color: black;
+  background-color: darkseagreen;
+  padding: 20px;
+  font-size: 22px;
+  margin: 0px 0px 0px 0px;
+}
+
+#sidebar {
+  display: inline-block;
+  width: 30%;
+  min-width: 300px;
+  position: relative;
+  top:0px;
+  right: 0px;
+  bottom: 0px;
+  border: 3px solid #73AD21;
+  background-color: MediumAquaMarine;
+}
+
+#sidebar {
+  float: right;
+}
+
+/* Style your image, so the size changes when you hover over it*/
+.image img {
+  float: none;
+  margin: 20px;
+  width: 250px;
+  border: solid 5px #dddddd;
+}
+
+
+/* .image img:hover {
+  transform: scale(1.5);
+} */
+
+.title {
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+  margin: 0px 0px 0px 0px;
+  letter-spacing: 2px;
+  color: #878583;
+}
+
+.main-header {
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  word-spacing:5px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #000000;
+  color: darkseagreen;
+}
