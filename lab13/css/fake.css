@@ -1,0 +1,115 @@
+div#bluecloud {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 25px;
+}
+img {
+  width: 25px;
+  position: relative;
+}
+
+div#hello span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 150px;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+   text-align: center;
+   padding: 0px 0px 0px 0px;;
+   margin: 0px 0px 0px 0px;
+}
+
+div#sub-header h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  width:40%;
+  color: #a2a2a2;
+  text-align: center;
+  display: block;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+div#navigation {
+  position: sticky;
+  right: 0;
+  width: 30%;
+}
+
+.button {
+  background-color: #32aefe;
+  border: solid #32aefe;
+  border-radius: 35px;
+  width: 175px;
+  height: 50px;
+  display: block;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+div#login {
+  position: relative;
+  float: right;
+  /* width: 30%; */
+}
+
+.login {
+  padding: 30px;
+  position:relative;
+  top:-15px;
+}
+
+.signup {
+  border: 1px solid #c7c7c7 ;
+  color: black;
+  border-radius: 40px;
+  padding: 10px 25px;
+  height: 30px;
+  position:relative;
+  top:-15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+li {
+  display: inline;
+  position:relative;
+  top:15px;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px;
+  color: #a2a2a2;
+}
+
+.active {
+  text-decoration: underline;
+  color: black;
+}
