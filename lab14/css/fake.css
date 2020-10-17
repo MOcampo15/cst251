@@ -1,0 +1,18 @@
+.background {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+/*Code for centering text credit to Lab 12 Lecture*/
+.title {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

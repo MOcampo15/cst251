@@ -1,0 +1,55 @@
+a {
+  padding: 10px;
+  background-color: #dddddd;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
+  color: black;
+  background-color: lightcoral;
+  padding: 20px;
+  font-size: 22px;
+  margin: 0px 0px 0px 0px;
+}
+
+.title {
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+  margin: 0px 0px 0px 0px;
+  letter-spacing: 2px;
+  color: #CD5C5C;
+}
+
+.main-header {
+  font-family: 'Handlee' serif;
+  font-size: 40px;
+  text-align: center;
+  /* text-decoration: underline; */
+  word-spacing:5px;
+  text-shadow: 2px 2px 3px #000000;
+  color: #CD5C5C;
+}
+
+div#content {
+  padding: 20px;
+  margin: 50px;
+  background-color: ghostwhite;
+  border: ridge 5px #333333;
+  padding-bottom: 150px;
+}
+
+#links {
+  font-family: 'Chilanka', cursive;
+  text-align: center;
+  margin: 20px;
+  position: sticky;
+  padding: 8px;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
