@@ -71,4 +71,5 @@ p{
 
 img {
   border: 5px solid #8FDCD5; /* Hexadecimal value credit: HTMLcolorcodes.com */
+  box-shadow: 5px 5px 15px black;
 }
