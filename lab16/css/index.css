@@ -44,9 +44,10 @@ img:hover {
   background-color: ghostwhite;
   border-radius: 25px;
   border: ridge 5px #333333;
-  padding-bottom: 3000px;
+  padding-bottom: 300px;
   box-shadow: 5px 5px 15px MintCream;
   background: url(../img/pattern.png);
+  background-repeat: no-repeat;
 }
 
 #links {
