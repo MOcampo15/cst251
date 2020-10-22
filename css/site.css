@@ -6,7 +6,8 @@ div#content{
 }
 
 body {
-  background-image: linear-gradient(#8FDCD5,floralwhite);
+  background: url(../img/background-image.jpg);
+  background-size: 100%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -28,6 +29,13 @@ body {
 
 .image {
   text-align: center;
+}
+
+img:hover {
+  transition: all 2s;
+  color: #8FDCD5;
+  background-color: teal;
+  width: 250px;
 }
 
 #footer {
