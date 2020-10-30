@@ -1,0 +1,75 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+img {
+  width: 300px;
+}
+
+header {
+  border-style: solid;
+  text-align: center;
+  /* float: center; */
+}
+
+nav {
+  border-style: solid;
+  text-align: center;
+  float: left;
+  width: 200px;
+  height: 500px;
+  display:block;
+  margin-right: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 12px;
+  text-decoration: none;   /*Navigation Sideabar Styling Help from: W3 Schools CSS Navigation Bar*/
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #909091;
+  color: white;
+}
+
+footer {
+  border-style: solid;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+}
+
+main {
+  border-style: solid;
+  positive: relative;
+  height: 500px;
+  width: 870px;
+  display:inline-block;
+  text-align: center;
+}
+
+section {
+  padding-top: 20px;
+}
+
+aside {
+  border-style: solid;
+  float: right;
+  clear: right;
+  width: 300px;
+  padding: 15px;
+}
