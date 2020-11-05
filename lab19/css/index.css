@@ -1,0 +1,24 @@
+.row {
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+.col {
+  border: solid 1px blue;
+  height: auto;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  margin-top: 20px;
+}
