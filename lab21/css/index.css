@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 25px;
+  text-decoration: underline;
+  color:#E40010;
+}
+
+.title {
+  font-family: 'Xanh Mono', monospace;
+  font-size: 20px;
+  font-weight: bold; 
+  color: #E40010;
+}
+
+h3 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  color: #E40010;
+}
+
+ #links {
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-size: 25px;
+   text-align: center;
+ }
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background-color: #005D00;
+}
+
+#content {
+  padding: 20px;
+  margin: 50px;
+  background-color: white;
+  border-radius: 25px;
+  border: ridge 3px #E40010;
+  padding-bottom: 110px;
+}
+
+.image img {
+  width: 650px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+}
+#links {
+  position: relative;
+  top:0;
+  text-align: center;
+  margin: 20px;
+  padding: 8px;
+}
