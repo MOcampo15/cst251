@@ -19,7 +19,7 @@ font-size: 60px;
 h2 {
 font-family: 'Amatic SC', cursive;
 font-size: 30px;
-color: white;
+color: black;
 font-weight: bold;
 }
 
@@ -28,4 +28,20 @@ text-align: center;
 border: solid 0.5px;
 color: black;
 background-color: #f2e1d0;
+}
+
+a:visited {
+color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color: white;
+}
+
+a:active{
+color: white;
 }
