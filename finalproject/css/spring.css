@@ -181,6 +181,7 @@ div#flex7 {
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   width: 33%;
+  position: relative;
 }
 
 div#flex7 a {
