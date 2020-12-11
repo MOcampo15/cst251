@@ -58,12 +58,35 @@ div#flex2 {
   border: solid 5px #88c800;
   background-color: #f2e1d0;
   padding: 15px;
+  display: block;
+}
+
+div#drop {
+  height: 50%;
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+/*
+div#drop img {
+  height: 300px;
+  width: 200px;
+  display: inline-block;
+} */
+
+div#drop h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 /*My Neighbor Totoro*/
 div#flex3 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  margin-left: 10%;
 }
 
 div#flex3 a {
@@ -85,6 +108,9 @@ div#flex4 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  margin-left: auto;
+  position: absolute;
+  margin-left: 20%;
 }
 
 div#flex4 a {
@@ -107,6 +133,8 @@ div#flex5 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  position: relative;
+  width: 33%;
 }
 
 div#flex5 a {
@@ -129,6 +157,8 @@ div#flex6 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  position: relative;
+  width: 33%;
 }
 
 div#flex6 a {
@@ -149,7 +179,8 @@ div#flex6 figcaption {
 div#flex7 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 13px;
+  width: 33%;
 }
 
 div#flex7 a {
