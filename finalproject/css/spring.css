@@ -12,10 +12,22 @@ padding: 15px 30px;
 font-size: 45px;
 }
 
+.header img {
+  /* display: flex;
+  flex-wrap: wrap;
+  align: left; */
+  float: left;
+  width: 300px;
+  height: auto;
+  padding-top: 20px;
+}
+
 /*Seasonal Cinema Main Title*/
 h1 {
 font-family: 'Amatic SC', cursive;
 font-size: 60px;
+display: inline-block;
+padding-right: 20%;
 }
 /*Section Titles*/
 h2 {
@@ -52,6 +64,7 @@ img {
 width: 220px;
 height: 330px;
 }
+
 .flex{
   display: flex;
   border: solid 5px #8ac906;
