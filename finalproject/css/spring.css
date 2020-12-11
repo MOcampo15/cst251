@@ -20,6 +20,82 @@ font-size: 60px;
 /*Section Titles*/
 h2 {
 font-family: 'Amatic SC', cursive;
+font-size: 50px;
+color: black;
+font-weight: bold;
+text-align: center;
+}
+
+.flex1 {
+text-align: center;
+border: solid 0.5px;
+color: #8ac906;
+background-color: #f2e1d0;
+}
+a:visited {
+color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color: white;
+}
+
+a:active{
+color: white;
+}
+
+img {
+width: 220px;
+height: 330px;
+}
+.flex{
+  display: flex;
+  border: solid 5px #8ac906;
+  background-color: #f2e1d0;
+  width: inherit;
+  flex-wrap: wrap;
+}
+.box{
+  width: 300px;
+  max-width: 00px
+  height: 600px;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  margin-left: 100px;
+}
+.container{
+  flex-grow: 2;
+}
+
+.box h3 {
+  font-family: 'Limelight', cursive;
+}
+/* Spring Colors Hexadecimal Code
+/*Pink #ff7d96 Green #88c800
+.nav {
+border: solid 0.5px black;
+text-align: center;
+font-family: 'Amatic SC';
+background-color: black;
+}
+
+.nav a {
+padding: 15px 30px;
+font-size: 45px;
+}
+
+/*Seasonal Cinema Main Title
+h1 {
+font-family: 'Amatic SC', cursive;
+font-size: 60px;
+}
+/*Section Titles
+h2 {
+font-family: 'Amatic SC', cursive;
 font-size: 30px;
 color: black;
 font-weight: bold;
@@ -65,7 +141,7 @@ div#drop {
   height: 50%;
   width: 25%;
   display: inline-block;
-  text-align: center;
+  text-align: left;
 }
 /*
 div#drop img {
@@ -74,14 +150,14 @@ div#drop img {
   display: inline-block;
 } */
 
-div#drop h2 {
+/* div#drop h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   color: black;
   font-weight: bold;
   text-align: center;
-}
-/*My Neighbor Totoro*/
+} */
+/*My Neighbor Totoro
 div#flex3 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -103,7 +179,7 @@ div#flex3 figcaption {
   display: flex;
   width: 220px;
 }
-/*Planet Earth*/
+/*Planet Earth
 div#flex4 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -128,7 +204,7 @@ div#flex4 figcaption {
   width: 220px;
 }
 
-/*Ferris Bueller's Day Off*/
+/*Ferris Bueller's Day Off
 div#flex5 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -152,7 +228,7 @@ div#flex5 figcaption {
   width: 220px;
 }
 
-/*Parasite*/
+/*Parasite
 div#flex6 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -175,7 +251,7 @@ div#flex6 figcaption {
   display: flex;
   width: 220px;
 }
-/*Bee Movie*/
+/*Bee Movie
 div#flex7 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -198,3 +274,4 @@ div#flex7 figcaption {
   display: flex;
   width: 220px;
 }
+*/
