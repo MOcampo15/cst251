@@ -38,6 +38,10 @@ font-weight: bold;
 text-align: center;
 }
 
+.shadow img{
+  box-shadow: 5px 10px #88c800;
+}
+
 .flex1 {
 text-align: center;
 border: solid 0.5px black;
@@ -53,7 +57,7 @@ text-decoration: none;
 }
 
 a:link {
-color: white;
+color: #88c800;
 }
 
 a:active{
@@ -65,9 +69,12 @@ width: 220px;
 height: 330px;
 }
 
+.box a{
+  color:#8ac906;
+}
 .flex{
   display: flex;
-  border: solid 5px #8ac906;
+  border: solid 10px #8ac906;
   background-color: #f2e1d0;
   width: inherit;
   flex-wrap: wrap;
@@ -80,6 +87,7 @@ height: 330px;
   padding: 20px;
   margin-left: 150px;
 }
+
 .container{
   flex-grow: 2;
 }

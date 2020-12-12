@@ -1,74 +1,93 @@
-h1 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 60px;
+/* Spring Colors Hexadecimal Code*/
+/*Blue #53b2aa  Yellow #ebc057*/
+.nav {
+border: solid 0.5px black;
+text-align: center;
+font-family: 'Amatic SC';
+background-color: black;
 }
 
-h2 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 30px;
+.nav a {
+padding: 15px 30px;
+font-size: 45px;
 }
 
-p {
-  font-family: 'Roboto', sans-serif;
-}
-
-img {
-  width: 50px;
-  padding: 15px;
-}
-
-.aside {
-  border: solid 1px black;
-  background-color: #f2e1d0;
-  width: 25%;
-  text-align: center;
+.header img {
+  float: left;
+  width: 300px;
   height: auto;
-
+  padding-top: 20px;
 }
 
-.flex2 {
- display: flex;
+img.drop {
+  width: 400px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
 }
 
-.main {
- width: 50%;
- height: auto;
- border: solid 1px black;
- text-align: center;
+/*Seasonal Cinema Main Title*/
+h1 {
+font-family: 'Amatic SC', cursive;
+font-size: 60px;
+display: inline-block;
+padding-right: 20%;
 }
-
-.main img {
-width: 400px;
-height: auto;
-max-width: 100%;
-
-}
-
-.right {
-   width: 25%;
-   height: auto;
-   border: solid 1px black;
-   text-align: center;
-}
-
-.right a {
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
+/*Section Titles*/
+h2 {
+font-family: 'Amatic SC', cursive;
+font-size: 50px;
+color: black;
+font-weight: bold;
+text-align: center;
 }
 
 .flex1 {
- text-align: center;
- border: solid 0.5px;
- color: black;
- background-color: #f2e1d0;
+text-align: center;
+border: solid 0.5px black;
+color: #53b2aa;
+background-color: #f2e1d0;
+}
+a:visited {
+color: white;
 }
 
-.nav {
-  border: solid 0.5px black;
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-  font-size: 45px;
-  background-color: #8e191c;
-  text-decoration-color: none;
-  text-decoration-style: none;
+a {
+text-decoration: none;
+}
+
+a:link {
+color: white;
+}
+
+a:active{
+color: white;
+}
+
+img {
+width: 220px;
+height: 330px;
+}
+
+.flex{
+  display: flex;
+  border: solid 5px #53b2aa;
+  background-color: #f2e1d0;
+  width: inherit;
+  flex-wrap: wrap;
+}
+.box{
+  width: 300px;
+  max-width: 00px
+  height: 600px;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  margin-left: 150px;
+}
+.container{
+  flex-grow: 2;
+}
+
+.box h3 {
+  font-family: 'Limelight', cursive;
 }
