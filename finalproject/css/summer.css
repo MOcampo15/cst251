@@ -13,7 +13,8 @@ font-size: 45px;
 }
 
 img.sun {
-    width: 400px;
+    min-width: 400px;
+    max-width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
@@ -93,7 +94,8 @@ height: 330px;
   height: 600px;
   font-family: 'Roboto', sans-serif;
   padding: 20px;
-  margin-left: 150px;
+  /* margin-left: 150px; */
+  margin-left: auto;
 }
 .container{
   flex-grow: 2;
@@ -101,4 +103,11 @@ height: 330px;
 
 .box h3 {
   font-family: 'Limelight', cursive;
+}
+
+
+@media screen and (max-width: 600px) {
+.flex .box{
+  flex-direction: column;
+  width: 100%;
 }
