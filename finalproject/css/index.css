@@ -59,6 +59,7 @@ padding-left: 5px;
   height: auto;
   margin: 0px;
   padding: 0px;
+  max-width: 100%;
 }
 
 .header img {
