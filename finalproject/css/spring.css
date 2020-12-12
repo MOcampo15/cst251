@@ -85,8 +85,7 @@ height: 330px;
   height: 600px;
   font-family: 'Roboto', sans-serif;
   padding: 20px;
-  /* margin-left: 150px; */
-  margin: inherit;
+  margin-left: 150px;
 }
 
 .container{
@@ -97,12 +96,12 @@ height: 330px;
   font-family: 'Limelight', cursive;
 }
 
-/* img.drop {
-    width: 100%;
+img.drop {
+    max-width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
-} */
+}
 
 @media screen and (max-width: 600px) {
 .flex .box{
