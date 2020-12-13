@@ -101,3 +101,10 @@ height: 330px;
 .box h3 {
   font-family: 'Limelight', cursive;
 }
+
+@media screen and (max-width: 800px) {
+.flex .box{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
+}

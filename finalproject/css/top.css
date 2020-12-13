@@ -107,3 +107,10 @@ img.snow {
 .shadow img {
   box-shadow: 5px 10px #8e191c;
 }
+
+@media screen and (max-width: 800px) {
+.flex .box{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
+}

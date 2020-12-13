@@ -1,4 +1,4 @@
-/* winter Colors Hexadecimal Code*/
+/*Winter Colors Hexadecimal Code*/
 /*Blue ##89afe0 Light #d5deef*/
 .nav {
 border: solid 0.5px black;
@@ -27,7 +27,7 @@ font-size: 45px;
 }
 
 img.snow {
-    width: 350px;
+    max-width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
@@ -110,6 +110,13 @@ img.snow {
   padding: 0px;
 }
 
-.shadowß img {
+.shadow img {
   box-shadow: 5px 10px #89afe0;
+}
+
+@media screen and (max-width: 800px) {
+.flex .box{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
 }

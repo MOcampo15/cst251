@@ -94,7 +94,7 @@ height: 330px;
   height: 600px;
   font-family: 'Roboto', sans-serif;
   padding: 20px;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 .container{
   flex-grow: 2;
@@ -113,6 +113,13 @@ img.drop {
 
 .shadow img {
   box-shadow: 5px 10px #88c800;
+}
+
+@media screen and (max-width: 800px) {
+.flex .box{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
 }
 /*
 /* Spring Colors Hexadecimal Code
